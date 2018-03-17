@@ -5,6 +5,7 @@
 @stop
 
 @section('content')
+    <img src="https://ugc.zenchef.com/3/4/7/5/9/0/1/3/4/7/4/1495637200_237/e90cce3a663710a89ca8de4d71e9532b.png" alt ="enseigne"/></br>
     <h3>Boissons</h3>
     <form action="/ventes/store" method="post">
         {{ csrf_field() }}
@@ -27,5 +28,5 @@
         <br>
     </form>
 
-    <img src="https://www.thingstodoinprinceedwardcounty.ca/wp-content/uploads/2013/12/coffee.png" alt="image boisson"/>
+
 @endsection
